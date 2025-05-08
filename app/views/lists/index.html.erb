@@ -1,0 +1,13 @@
+<div><h1>Watch Movies</h1></div>
+<p>Find me in app/views/lists/index.html.erb</p>
+
+<ul>
+  <% @lists.each do |list| %>
+    <li><%= list %></li>
+  <% end %>
+</ul>
+
+<%= link_to list.name, list %>
+
+when submitting through a button you go
+to create but you need the info through params require
